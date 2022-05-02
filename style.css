@@ -1,0 +1,113 @@
+body {
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    
+}
+
+.content {
+    margin: 3% auto;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+
+    
+}
+
+.top {
+    margin: 45px;
+}
+
+.content h1 {
+    margin-top: 20px;
+}
+
+.mainimg {
+    width: auto;
+    height: 220px;
+    background: url(images/illustration-hero.svg) center no-repeat;
+    border-radius: 20px 20px 0 0;
+    text-indent: -9999px;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+aside {
+   background: url(images/icon-music.svg) hsl(225, 100%, 98%) left center no-repeat;
+   background-position: 15px;
+   font-size: 15px;
+   text-align: left;
+   border-radius: 12px;
+   margin: -20px 45px 45px 45px;
+   
+}
+
+aside h3 {
+    padding-top: 38px;
+    font-weight: 900;
+}
+
+aside h3,
+aside p {
+    margin-left: 80px;
+    line-height: 6px;
+    
+}
+
+aside a {
+    font-weight: 700;
+
+    position:relative;
+    top:-37px;
+    right:-270px;
+}
+
+aside a:hover {
+    text-decoration: none;
+    color:hsl(238, 95%, 70%);
+}
+
+.proceed {
+    background: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    margin: -20px 45px 45px 45px;
+    padding: 3%;
+    border-radius: 12px;
+    box-shadow: 1px 25px 18px #DEDBF8;
+
+    
+}
+
+.proceed:hover {
+    background-color: hsl(238, 95%, 70%);
+    cursor: pointer;
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    margin: -18px 150px;
+    padding-bottom: 40px;
+    border-radius: 12px;
+    
+    
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color:black;
+}
