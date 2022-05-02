@@ -9,6 +9,7 @@ body {
     background-color: hsl(225, 100%, 94%);
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: repeat-x;
+    background-position: top;
     
 }
 
